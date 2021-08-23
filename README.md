@@ -1,3 +1,3 @@
-# kuzinda.github.io
+# HomeWork
 
-[card](https://kuzinda.github.io/card/)
+[Lesson_1](https://kuzinda.github.io/card/)
