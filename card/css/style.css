@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+background-image: url('../img/Oval-t.png');
+background-position-x: 25%;
+background-repeat: no-repeat;
+background-color: #19A1AE ;
+font-family: 'Kumbh Sans', sans-serif;
+}
+.card {
+  height: 370px;
+  max-width: 350px;
+  position: absolute;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  top:calc(50% - 185px);
+  background-color: #fff;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;  
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-image {
+  max-width: 100%;
+  height: auto;
+}
+.card-avatar {
+  margin-top: -48px;
+  padding-bottom: 24px;
+}
+.user-avatar {
+  width: 96px;
+  height: 96px;
+  border: 5px solid #FFFFFF;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-name {
+  display: flex; 
+  align-items: center;
+  padding-bottom: 13px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2E3349;  
+  padding-right: 9px;
+}
+.age {
+  font-size: 18px;
+  line-height: 18px;
+  color: #6B7082;
+}
+.user-land {
+  font-size: 14px;
+  line-height: 14px;  
+  color: #6B7082;
+  padding-bottom: 28px;
+}
+.card-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid #E8E9EC;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 27px;
+}
+.number {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2E3349;
+  padding-bottom: 10px;
+}
+.link {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
+@media (max-width: 375px) {
+  .card{
+    max-width: 326px ;
+  }
+}
+@media (max-width: 330px) {
+  .card{
+    max-width: 300px ;
+  }
+}
