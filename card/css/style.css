@@ -4,12 +4,25 @@
   text-decoration: none;
 }
 body {
-background-image: url('../img/Oval-t.png');
-background-position-x: 25%;
-background-repeat: no-repeat;
-background-color: #19A1AE ;
-font-family: 'Kumbh Sans', sans-serif;
+  background-image: url('../img/Oval-t.png');
+  background-position-x: 25%;
+  background-repeat: no-repeat;
+  background-color: #19A1AE ;
+  font-family: 'Kumbh Sans', sans-serif;
 }
+body::before {
+
+    background-image: url('../img/Oval-b.png');
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    content: "";
+    position: fixed;
+    height: 50%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+}
+
 .card {
   height: 370px;
   max-width: 350px;
@@ -73,7 +86,6 @@ font-family: 'Kumbh Sans', sans-serif;
   align-items: center;
   justify-content: space-around;
   padding-top: 24px;
-  padding-bottom: 24px;
   border-top: 1px solid #E8E9EC;
 }
 .card-info {
