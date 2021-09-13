@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #19A1AE ;
+  font-family: 'Kumbh Sans', sans-serif;
+  position: relative;
+  overflow:hidden;
+}
+.element-1 {
+  position: fixed;
+  top: 0;
+  left: 0 ;
+  height: 100%;
+}
+.element-2 {
+  position: fixed;
+  max-width: 100%;
+  bottom: 0;
+  right: 0;
+ transform:scale(1.5,1.5);
+}
+
+.card {
+  position: fixed;
+  height: 370px;
+  max-width: 350px;
+  left:0;
+  right:0;
+  margin: 0 auto;
+  top:calc(50% - 185px);
+  background-color: #fff;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;  
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-image {
+  max-width: 100%;
+  height: auto;
+}
+.card-avatar {
+  margin-top: -48px;
+  padding-bottom: 24px;
+}
+.user-avatar {
+  width: 96px;
+  height: 96px;
+  border: 5px solid #FFFFFF;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.user-name {
+  display: flex; 
+  align-items: center;
+  padding-bottom: 13px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2E3349;  
+  padding-right: 9px;
+}
+.age {
+  font-size: 18px;
+  line-height: 18px;
+  color: #6B7082;
+}
+.user-land {
+  font-size: 14px;
+  line-height: 14px;  
+  color: #6B7082;
+  padding-bottom: 28px;
+}
+.card-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 24px;
+  border-top: 1px solid #E8E9EC;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 27px;
+}
+.number {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  color: #2E3349;
+  padding-bottom: 10px;
+}
+.link {
+  font-size: 10px;
+  line-height: 10px;
+  letter-spacing: 1.5px;
+  color: #6B7082;
+}
+@media (max-width: 1220px)  {
+  .element-2 {
+  max-width: 70%;
+}
+}
+@media (max-width: 1025px)  {
+.element-1 {
+  height: 60%;
+}
+.element-2 {
+  max-width: 100%;
+  height: 70%;
+  transform: scaleX(0.9);
+}
+}
+@media (max-width: 990px)  {
+.element-1 {
+  height: 90%;
+}
+}
+@media (max-width: 840px)  {
+.element-1 {
+  height: 55%;
+}
+@media (max-width: 670px)  {
+.element-1 {
+  height: 65%;
+}
+.element-2 {
+  max-width: 80%;
+}
+}
+@media (max-width: 500px)  {
+.element-1 {
+  height: 45%;
+}
+.element-2 {
+  height: 60%;
+
+}
+}
+@media (max-width: 375px) {
+  .card{
+    max-width: 326px ;
+  }
+  .element-1 {
+  height: 45%;
+}
+}
+@media (max-width: 330px) {
+  .card{
+    max-width: 300px;
+  }
+}
