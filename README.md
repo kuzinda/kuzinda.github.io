@@ -4,7 +4,7 @@
 
 [Lesson_2](https://kuzinda.github.io/landing_page/)
 
-[Lesson_2](https://kuzinda.github.io/Ul kit/)
+[Lesson_3](https://kuzinda.github.io/Ul kit/)
 
 
 
