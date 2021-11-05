@@ -4,7 +4,5 @@
 
 [Lesson_2](https://kuzinda.github.io/landing_page/)
 
-[Lesson__3](https://kuzinda.github.io/Ul_kit/)
-
 
 
