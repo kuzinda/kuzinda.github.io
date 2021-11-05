@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Ul-kit</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="form">
+      <div class="form__column__1">
+        <div class="form__name">Input</div>
+        <form class="form__basic">
+          <input type="text" class="input__basic" required="required" placeholder="Placeholder">
+        </form>
+      </div>
+      <div class="form__column__2">
+        <div class="form__name name__2 ">Input Disabled</div>
+        <form class="form__disabled">
+          <input type="text" class="input__disabled" placeholder="Value" aria-label="disabled input example" disabled>
+        </form>
+      </div>
+      <div class="form__column__3">
+        <form class="form__basic">
+          <input type="text" class="input__basic" required="required" placeholder="Placeholder">
+        </form>
+      </div>
+      <div class="form__column__4">
+        <form class="form__disabled">
+          <input type="text" class="input__disabled" placeholder="Disabled" aria-label="disabled input example"
+            disabled>
+        </form>
+      </div>
+      <div class="form__column__5">
+        <form class="form__search_left">
+          <input type="search" class="input__search search-left" placeholder="Placeholder">
+        </form>
+      </div>
+      <div class="form__column__6">
+        <form class="form__search_left">
+          <input type="search" class="input__search input__search-2 search-right" placeholder="Placeholder">
+        </form>
+      </div>
+      <div class="form__column__7">
+        <form class="form__url">
+          <span class="input__group__url"> www.</span>
+          <input type="url" class="input__url" placeholder="2dots.co">
+        </form>
+      </div>
+      <div class="form__column__8">
+        <div class="form__name">Textarea</div>
+        <textarea required="required" class="form__textarea" name="message" placeholder="Placeholder"></textarea>
+      </div>
+    </div>
+
+    <div class="part_2">
+       <!--SELECT-->
+      <div class="select__form">
+        <div class="form__name ">Please choose:</div>
+        <div class="select">
+          <div class="select__header">
+            <span class="select__current">Option</span>
+            <div class="select__icon">
+              <svg width="12" height="6" viewBox="0 0 12 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M5.29286 5.70686L0.853556 1.26757C0.538556 0.952568 0.761656 0.413969 1.20706 0.413969L10.7928 0.413969C11.2383 0.413969 11.4614 0.952568 11.1464 1.26757L6.70706 5.70686C6.31656 6.09739 5.68336 6.09739 5.29286 5.70686Z"
+                  fill="#2C2C2C" />
+              </svg>
+            </div>
+          </div>
+          <div class="select__body">
+            <div class="select__item">Moscow</div>
+            <div class="select__item">Minsk</div>
+            <div class="select__item">Kiev</div>
+            <div class="select__item">Saint Petersburg</div>
+          </div>
+        </div>
+        <div class="select select_2">
+          <div class="select__header ">
+            <span class="select__current current">Option</span>
+          </div>
+          <div class="select__body">
+            <div class="select__item">Moscow</div>
+            <div class="select__item">Minsk</div>
+            <div class="select__item">Kiev</div>
+            <div class="select__item">Saint Petersburg</div>
+          </div>
+        </div>
+      </div>
+
+      <!--CHECKBOX-->
+      <div class="checkbox__radio"> 
+    <div class="checkbox"> 
+      <input type="checkbox" class="custom-checkbox" id="happy" name="happy" value="yes">
+      <label for="happy">Option</label>
+
+      <input type="checkbox" class="custom-checkbox" id="sad" name="sad" value="no" disabled="disabled">
+      <label for="sad"></label>
+    </div>
+      <!--RADIO-->
+    <div class="radio"> 
+      <input type="radio" class="custom-radio" id="circle" name="circle" value="yes">
+      <label for="circle">Option</label>
+
+      <input type="radio" class="custom-radio" id="ball" name="ball" value="no" disabled="disabled">
+      <label for="ball"></label>
+    </div>
+  </div>
+
+     <!--SWITCH-->
+     <div class="switch">
+       <div class="switch__box__1">
+      <label class="switch__checkbox">
+        <input type="checkbox" />
+        <span></span>
+        <p class="form__name  checkbox__name">Option</p>
+      </label>
+      </div>
+
+      <div class="switch__box__2"> 
+     <div class="switch">
+      <label class="switch__checkbox">
+        <input type="checkbox" />
+        <span></span>
+      </label>
+      <label class="switch__checkbox disabled">
+        <input type="checkbox" disabled />
+        <span></span>
+      </label>
+    </div>
+     </div>
+
+     <div class="switch__box__3"> 
+      <div class="switch">
+       <label class="switch__checkbox box__3">
+         <input type="checkbox" />
+         <span></span>
+       </label>
+       <label class="switch__checkbox disabled">
+         <input type="checkbox" disabled />
+         <span></span>
+       </label>
+     </div>
+      </div>
+    </div> 
+
+  </div> <!--part_2-->
+ 
+
+
+  <div class="part_3">
+    <!--BUTTONS-->
+    <h2 class="button__title"> Buttons Big</h2>
+    <div class="buttons__big">
+      <div class="buttons__group_examle-1">
+        <a href="#" class="button__big__link">
+        <button class="button__big button__big__normal ">Download</button>
+       </a>
+        <button class="button__big button__big__active">Download</button>
+        <button class=" button__big button__big_disabled" disabled>Download</button>
+      </div>
+
+      <div class="buttons__group_examle-2">
+       <button class="button__big button__big__normal button__big__icon ">
+         <span class="button__text">Download</span> 
+         <a class="button__link__icon " href="#">
+           <svg  viewBox="0 0 24 24"
+           aria-hidden="true"
+           focusable="false"  fill="none" >
+             <path  d="M4 12V19H20V12"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 3.50073L12 13.5007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L15.375 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L8.625 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             </svg> 
+             </a>
+       </button>
+       
+       <button class="button__big button__big__active button__big__icon">   <span class="button__text">Download</span> 
+         <a class="button__link__icon button__link__icon_active " href="#">
+           <svg  viewBox="0 0 24 24"
+           aria-hidden="true"
+           focusable="false"  fill="none" ">
+             <path  d="M4 12V19H20V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 3.50073L12 13.5007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L15.375 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L8.625 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             </svg> 
+             </a></button>
+
+       <button class=" button__big button__big_disabled button__big__icon" disabled>   <span class="button__text">Download</span> 
+         <a class="button__link__icon button__link__icon_disabled " href="#">
+           <svg  viewBox="0 0 24 24"
+           aria-hidden="true"
+           focusable="false"  fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path  d="M4 12V19H20V12"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 3.50073L12 13.5007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L15.375 10.1257" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L8.625 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             </svg> 
+             </a></button>
+     </div>
+     <div class="buttons__group_examle-2">
+       <button class="button__big button__big__normal button__big__icon ">
+         <a class="button__link__icon " href="#">
+           <svg  viewBox="0 0 24 24"
+           aria-hidden="true"
+           focusable="false"  fill="none" >
+             <path  d="M4 12V19H20V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 3.50073L12 13.5007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L15.375 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L8.625 10.1257" " stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             </svg> 
+             </a>
+         <span class="button__text button__text__left">Download</span> 
+       </button>
+       
+       <button class="button__big button__big__active button__big__icon">  
+         <a class="button__link__icon button__link__icon_active " href="#">
+           <svg  viewBox="0 0 24 24"
+           aria-hidden="true"
+           focusable="false"  fill="none" >
+             <path  d="M4 12V19H20V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 3.50073L12 13.5007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L15.375 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L8.625 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             </svg> 
+             </a>
+          <span class="button__text button__text__left">Download</span> 
+        </button>
+
+       <button class=" button__big button__big_disabled button__big__icon" disabled>  
+         <a class="button__link__icon  button__link__icon_disabled" href="#">
+           <svg  viewBox="0 0 24 24"
+           aria-hidden="true"
+           focusable="false"  fill="none" >
+             <path  d="M4 12V19H20V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 3.50073L12 13.5007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L15.375 10.1257" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             <path d="M12 13.5007L8.625 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+             </svg> 
+             </a>
+          <span class="button__text button__text__left">Download</span> 
+        </button>
+     </div>
+    </div>
+
+    <h2 class="button__title"> Buttons Small</h2>
+    <div class="buttons__big button__small_box">
+      <div class="buttons__group_examle-1">
+        <button class="button__big button__big__normal button__small">Download</button>
+       
+        <button class="button__big button__big__active button__small button__small__active">Download</button>
+
+        <button class=" button__big button__big_disabled button__small button__small__disabled " disabled>Download</button>
+      </div>
+
+      <div class="buttons__group_examle-2">
+       <button class="button__big button__big__normal button__big__icon button__small__icon button__small">
+         <span class="button__text">Download</span> 
+         <a class="button__link__icon button__link__icon__small " href="#">
+             <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" >
+               <path d="M3.33331 10V15.8333H16.6666V10"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 2.91728L10 11.2506"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L12.8125 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L7.1875 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg> 
+             </a>
+       </button>
+       
+       <button class="button__big button__big__active button__big__icon button__small__icon button__small">   <span class="button__text">Download</span> 
+         <a class="button__link__icon button__link__icon_active button__link__icon__small " href="#">
+             <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" >
+               <path d="M3.33331 10V15.8333H16.6666V10"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 2.91728L10 11.2506"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L12.8125 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L7.1875 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               
+             </a></button>
+
+       <button class=" button__big button__big_disabled button__big__icon button__small__icon  button__small" disabled>   <span class="button__text">Download</span> 
+         <a class="button__link__icon button__link__icon__small button__link__icon_disabled " href="#">
+             <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" >
+               <path d="M3.33331 10V15.8333H16.6666V10"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 2.91728L10 11.2506"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L12.8125 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L7.1875 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               
+             </a></button>
+     </div>
+     <div class="buttons__group_examle-2">
+       <button class="button__big button__big__normal button__big__icon button__small__icon button__small__normal ">
+         <a class="button__link__icon button__link__icon__small " href="#">
+             <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" >
+               <path d="M3.33331 10V15.8333H16.6666V10"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 2.91728L10 11.2506"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L12.8125 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L7.1875 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+                
+             </a>
+         <span class="button__text button__text__left">Download</span> 
+       </button>
+       
+       <button class="button__big button__big__active button__big__icon button__small__icon button__small">  
+         <a class="button__link__icon button__link__icon_active button__link__icon__small  " href="#">
+             <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" >
+               <path d="M3.33331 10V15.8333H16.6666V10"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 2.91728L10 11.2506"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L12.8125 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L7.1875 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               
+             </a>
+          <span class="button__text button__text__left">Download</span> 
+        </button>
+
+       <button class=" button__big button__big_disabled button__big__icon button__small__icon button__small" disabled>  
+         <a class="button__link__icon  button__link__icon_disabled button__link__icon__small " href="#">
+             <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" >
+               <path d="M3.33331 10V15.8333H16.6666V10"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 2.91728L10 11.2506"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L12.8125 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               <path d="M10 11.2506L7.1875 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+               </svg>
+               
+             </a>
+          <span class="button__text button__text__left">Download</span> 
+        </button>
+     </div>
+    </div>
+     <!--TABS  ICON-->
+     <div class="tabs__block">
+       <div class="tabs_small">
+         <ul class="tab__icons">
+           <li class="tab__icon">
+             <a href="#" class="tab__icon__link">
+               <svg width="15" height="15" viewBox="0 0 15 15" class="tab__img" aria-hidden="true"
+               focusable="false" >
+                 <path  d="M6 2C3.79086 2 2 3.79086 2 6C2 8.2091 3.79086 10 6 10C8.2091 10 10 8.2091 10 6C10 3.79086 8.2091 2 6 2ZM0 6C0 2.68629 2.68629 0 6 0C9.3137 0 12 2.68629 12 6C12 7.2958 11.5892 8.4957 10.8907 9.4765L14.7071 13.2929C15.0976 13.6834 15.0976 14.3166 14.7071 14.7071C14.3166 15.0976 13.6834 15.0976 13.2929 14.7071L9.4765 10.8907C8.4957 11.5892 7.2958 12 6 12C2.68629 12 0 9.3137 0 6Z" />
+                 </svg>    
+             </a>
+           </li>
+           <li class="tab__icon">
+             <a href="#" class="tab__icon__link tab__icon__link_down">
+               <svg  width="24"fill="none" height="24" viewBox="0 0 24 24"aria-hidden="true"
+               focusable="false">
+                 <path d="M4 12V19H20V12" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M12 3.50073L12 13.5007"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M12 13.5007L15.375 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 <path d="M12 13.5007L8.625 10.1257"  stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                 </svg>                 
+             </a>
+           </li>
+           <li class="tab__icon">
+             <a href="#" class="tab__icon__link
+             tab__icon__link_search">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"
+             focusable="false">
+               <path d="M15 12.51H15.5V12.01V10.51H16.5V13.01C16.5 13.2869 16.2769 13.51 16 13.51H8C7.72314 13.51 7.5 13.2869 7.5 13.01V10.51H8.5V12.01V12.51H9H15Z" />
+               <path d="M2.92205 6.30863L2.90861 6.29902L5.3096 3.10657L5.3101 3.1059C5.58912 2.73363 6.0385 2.50903 6.508 2.50903H17.508C17.9791 2.50903 18.4295 2.73545 18.7101 3.11188L18.7105 3.11237L21.1053 6.31638L21.0935 6.32544L21.3866 6.72011C21.4672 6.82871 21.5 6.92251 21.5 7.01003V18.01C21.5 18.8369 20.8269 19.51 20 19.51H4C3.17314 19.51 2.5 18.8369 2.5 18.01V7.01003C2.5 6.92206 2.53338 6.82686 2.615 6.71803L2.92205 6.30863ZM6.508 3.51003H6.2584L6.10838 3.70952L4.60438 5.70952L4.0024 6.51003H5.004H19.003H20.001L19.4035 5.71067L17.9085 3.71067L17.7585 3.51003H17.508H6.508ZM3.5 18.01V18.51H4H20.002H20.5021L20.502 18.0099L20.5 8.00993L20.4999 7.51003H20H4H3.5V8.01003V18.01Z" />
+               </svg>  
+           </a>
+           </li>
+         </ul>
+       </div>
+       <div class="tabs"> 
+       <button class="button_tab button_tab_1">Tab 1</button>
+       <button class="button_tab button_tab_2">Tab 2</button>
+     </div>
+     <div class="tabs"> 
+       <button class="button_tab button_tab_1 tab_size">S</button>
+       <button class="button_tab button_tab_3 tab_size">M</button>
+       <button class="button_tab button_tab_2 tab_size">L</button>
+     </div>
+     <div class="tag_block">
+       <div class="tags">
+         <ul class="tags_icons">
+           <li class="tag__icon">
+             <span class="tag_icon__text">Tag</span>
+             <a href="#" class="tag__icon__link">
+               <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                 <g>
+                 <path d="M5.45122 10.7845L7.64647 8.58927L8.00002 8.23571L8.35357 8.58927L10.5488 10.7845C10.6139 10.8496 10.7195 10.8496 10.7845 10.7845C10.8496 10.7195 10.8496 10.6139 10.7845 10.5488L8.58927 8.35357L8.23571 8.00002L8.58927 7.64647L10.7845 5.45122C10.8496 5.38613 10.8496 5.28058 10.7845 5.21549C10.7195 5.15042 10.6139 5.15042 10.5488 5.21549L10.5488 5.2155L8.35357 7.41077L8.00002 7.76433L7.64647 7.41077L5.45121 5.2155C5.45121 5.2155 5.45121 5.2155 5.45121 5.2155C5.38612 5.15042 5.2806 5.15042 5.2155 5.2155C5.2155 5.2155 5.2155 5.2155 5.2155 5.2155M5.45122 10.7845L5.2155 5.2155M5.45122 10.7845C5.38613 10.8496 5.28058 10.8496 5.21549 10.7845C5.15042 10.7195 5.15042 10.6139 5.21549 10.5488L5.2155 10.5488L7.41077 8.35357L7.76433 8.00002L7.41077 7.64647L5.2155 5.45121M5.45122 10.7845L5.2155 5.45121M5.2155 5.2155C5.15042 5.2806 5.15042 5.38612 5.2155 5.45121M5.2155 5.2155L5.2155 5.45121M5.2155 5.45121C5.2155 5.45121 5.2155 5.45121 5.2155 5.45121M5.2155 5.45121L5.2155 5.45121" />
+                 </g>
+                 </svg>
+                 
+               
+                 
+               </a>
+           </li>
+           <li class="tag__icon__notext">
+             <button  class="tag__icon__link tag_icon__text tag__icon__link__notext
+             tag__icon__link__notext_hover">
+               Tag</button>
+           </li>
+
+         </ul>
+
+       </div>
+
+     </div>
+ </div>
+</div><!--part_3-->
+
+<div class="part_4">
+       <div class="slider_box"> 
+      <!--SLIDER 1-->
+         <div class="slider-1">
+        <div class="range" data-width="300" data-type="double" data-units="$">
+          <div class="range-fill"></div>
+          <span class="min-range-item" data-value=""></span>
+          <span class="max-range-item" data-value=""></span>
+        </div>
+        <div class="info">
+          <div class="min-box"><span class="min-price"></span></div>
+          <div class="max-box"><span class="max-price"></span></div>
+        </div>
+      </div><!-- SLIDER 1-->
+
+       <!--SLIDER 2-->
+ <div class="slider-2">
+  <div class="slider_element_2">
+   <div class="track-2"></div>
+ </div>
+ <div class="output-2 o0"> </div>
+ <div class="thumb-2 t0"></div>
+ <div class="output-2 o1"> </div>
+ <div class="thumb-2 t1"></div>
+  </div><!-- SLIDER 2-->
+
+    <!--SLIDER 3-->
+  <div class="slider-3">
+    <form class="range-3">
+      <div class="form-group range__slider">
+        <input type="range" step="500">
+      </div>
+      <div class="form-group range__value">
+        <label></label>
+        <span></span>            
+      </div>
+    </form>
+  </div>
+  <!--slider-3-->
+      <!--SLIDER 4-->
+ <div class="slider-4">
+  <div class="slider_element_4">
+    <div class="track-4"></div>
+  </div>
+  <div class="output-4 o0"> </div>
+  <div class="thumb-4 t0"></div>
+
+  <div class="output-4 o1"> </div>
+  <div class="thumb-4 t1"></div>
+</div> <!--/slider-4-->
+<!--SLIDER 5-->
+<div id="inputDiv">
+  <div id="etiqueta"></div>
+  <input id="rage-5" type="range" value='15' min="0" max="100"  autocomplete="off">
+  </div>
+      </div> <!--SLIDER_box-->
+
+<!--WINDOW-->
+<div class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <a href="" class="popup__close">
+        <svg width="10" height="10" viewBox="0 0 10 10"  xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.29289 0.29289C0.68342 -0.09763 1.31658 -0.09763 1.70711 0.29289L5 3.5858L8.2929 0.29289C8.6834 -0.09763 9.3166 -0.09763 9.7071 0.29289C10.0976 0.68342 10.0976 1.31658 9.7071 1.70711L6.4142 5L9.7071 8.2929C10.0976 8.6834 10.0976 9.3166 9.7071 9.7071C9.3166 10.0976 8.6834 10.0976 8.2929 9.7071L5 6.4142L1.70711 9.7071C1.31658 10.0976 0.68342 10.0976 0.29289 9.7071C-0.09763 9.3166 -0.09763 8.6834 0.29289 8.2929L3.5858 5L0.29289 1.70711C-0.09763 1.31658 -0.09763 0.68342 0.29289 0.29289Z" />
+          </svg>
+          
+      </a>
+      <div class="popup__title">Modal Title</div>
+      <div class="popup__text">Alert details go here.</div>
+      <div class="popup__button"> 
+      <button class=" popup__button_snap">Cancel</button>
+      <button class="popup__button_snap">Submit</button>
+    </div>
+    </div>
+  </div>
+
+  
+</div>
+<div class="popup__block">
+  <div class="popup__small">
+      <div class="popup__content popup__content__small">
+        <a href="" class="popup__close popup__close__small">
+          <svg width="10" height="10" viewBox="0 0 10 10"  xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.29289 0.29289C0.68342 -0.09763 1.31658 -0.09763 1.70711 0.29289L5 3.5858L8.2929 0.29289C8.6834 -0.09763 9.3166 -0.09763 9.7071 0.29289C10.0976 0.68342 10.0976 1.31658 9.7071 1.70711L6.4142 5L9.7071 8.2929C10.0976 8.6834 10.0976 9.3166 9.7071 9.7071C9.3166 10.0976 8.6834 10.0976 8.2929 9.7071L5 6.4142L1.70711 9.7071C1.31658 10.0976 0.68342 10.0976 0.29289 9.7071C-0.09763 9.3166 -0.09763 8.6834 0.29289 8.2929L3.5858 5L0.29289 1.70711C-0.09763 1.31658 -0.09763 0.68342 0.29289 0.29289Z" />
+            </svg>
+        </a>
+        <div class="popup__title popup__title__small ">This is an alert</div>
+      </div>
+  </div>
+  <div class="popup__middle">
+    <div class="popup__content popup__content__small popup__content__middle">
+      <a href="" class="popup__close popup__close__small popup__close__middle">
+        <svg width="10" height="10" viewBox="0 0 10 10"  xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M0.29289 0.29289C0.68342 -0.09763 1.31658 -0.09763 1.70711 0.29289L5 3.5858L8.2929 0.29289C8.6834 -0.09763 9.3166 -0.09763 9.7071 0.29289C10.0976 0.68342 10.0976 1.31658 9.7071 1.70711L6.4142 5L9.7071 8.2929C10.0976 8.6834 10.0976 9.3166 9.7071 9.7071C9.3166 10.0976 8.6834 10.0976 8.2929 9.7071L5 6.4142L1.70711 9.7071C1.31658 10.0976 0.68342 10.0976 0.29289 9.7071C-0.09763 9.3166 -0.09763 8.6834 0.29289 8.2929L3.5858 5L0.29289 1.70711C-0.09763 1.31658 -0.09763 0.68342 0.29289 0.29289Z" />
+          </svg>
+      </a>
+      <div class="popup__title popup__title__small popup__title__middle ">This is an alert</div>
+      <div class="popup__text popup__text__mniddle ">Alert details go here.</div>
+
+    </div>
+  </div>
+  <div class="popup__big">
+    <div class="popup__content  popup__content__big">
+      <div class="popup__attention"> 
+<span class="popup__attention_text">!</span>
+</div>
+<div class="popup__block_text"> 
+      <div class="popup__title  ">This is an alert</div>
+      <div class="popup__text popup__text__big ">Alert details go here.</div>
+    </div>
+      <div class="popup__buttons__group"> 
+        <div class="popup__buttons"> 
+      <button class=" popup__button_middle popup__button_1">Open</button>
+      <button class="popup__button_middle popup__button_2">Dismiss</button>
+    </div>
+    </div>
+    </div>
+
+    <div class="popup__content  popup__content__big popup__content__big_2">
+      <div class="popup__attention popup__attention_2"> 
+<span class="popup__attention_text popup__attention_text_2">!</span>
+</div>
+<div class="popup__block_text "> 
+      <div class="popup__title  popup__title_2 ">This is an alert</div>
+      <div class="popup__text popup__text__big  popup__text__big_2">Alert details go here.</div>
+    </div>
+      <div class="popup__buttons__group"> 
+        <div class="popup__buttons"> 
+      <button class=" popup__button_middle popup__button_middle_2 popup__button_1 popup__button_1_2">
+        Open</button>
+      <button class="popup__button_middle  popup__button_middle_2 popup__button_2 popup__button_2_2">Dismiss</button>
+    </div>
+    </div>
+    </div>
+
+  </div>
+</div>
+<!--TABS--> <!--BREADCRAMBS-->
+<div class="tabs__breadcrumb__block"> 
+
+<div class="breadcrumbs">
+  <div class="breadcrumb">
+     <nav class="breadcrumb__nav ">
+        <div class="breadcrumb__wrap">
+          <span class="sep"><i class="fa fa-caret-right"></i></span> <span class="breadcrumb"><a class="breadcrumb__link" href="#">First Section</a></span>
+        </div>   
+        <div class="breadcrumb__wrap">
+          <span class="sep"><i class="fa fa-caret-right"></i></span> <span class="breadcrumb"><a class="breadcrumb__link"  href="#">Second Section</a></span>
+        </div>
+        <div class="breadcrumb__wrap">
+          <span class="sep"><i class="fa fa-caret-right"></i></span> <span class="breadcrumb"><a class="breadcrumb__link"  href="#">Third  Section</a></span>
+        </div>
+      </nav>
+        </div>
+
+        <div class="breadcrumb_2">
+          <nav class="breadcrumb__nav_2 ">
+             <div class="breadcrumb__wrap_2">
+               <span class="sep"><i class="fa fa-caret-right"></i></span> <span class="breadcrumb_2"><a class="breadcrumb__link_2" href="#">First Section</a></span>
+             </div>   
+             <div class="breadcrumb__wrap_2">
+               <span class="sep"><i class="fa fa-caret-right"></i></span> <span class="breadcrumb_2"><a class="breadcrumb__link_2"  href="#">Second Section</a></span>
+             </div>
+             <div class="breadcrumb__wrap_2">
+               <span class="sep"><i class="fa fa-caret-right"></i></span> <span class="breadcrumb_2"><a class="breadcrumb__link_2"  href="#">Third  Section</a></span>
+             </div>
+           </nav>
+             </div>
+      </div>
+  <div class="tabs tabs_first">
+    <div class="tabs-nav">
+      <a href="#content-1" class="tabs__link tabs__link_active">Current Tab</a>
+      <a href="#content-2" class="tabs__link">Second Tab</a>
+      <a href="#content-3" class="tabs__link">Third Tab</a>
+    <div class="tabs-content">
+      <div id="content-1"class="tabs-pane tabs__pane_show"></div>
+      <div id="content-2"class="tabs-pane"> </div>
+      <div id="content-3"class="tabs-pane"></div>
+    </div>
+  </div>
+</div>
+<div class="tabs">
+  <div class="tabs-nav">
+    <a href="#content-1" class="tabs__link_2 ">Current Tab</a>
+    <a href="#content-2" class="tabs__link_2">Second Tab</a>
+    <a href="#content-3" class="tabs__link_2">Third Tab</a>
+  <div class="tabs-content">
+    <div id="content-1"class="tabs-pane tabs__pane_show"></div>
+    <div id="content-2"class="tabs-pane"> </div>
+    <div id="content-3"class="tabs-pane"></div>
+  </div>
+</div>
+</div>
+<div class="tabs_3">
+  <div class="tabs-nav_3">
+    <a href="#content-1" class="tabs__link_3 "><svg  class="tabs-icon_3" width="20" height="20" viewBox="0 0 13 13"  xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M5.16663 1.83341C3.32568 1.83341 1.83329 3.3258 1.83329 5.16675C1.83329 7.00766 3.32568 8.50008 5.16663 8.50008C7.00754 8.50008 8.49996 7.00766 8.49996 5.16675C8.49996 3.3258 7.00754 1.83341 5.16663 1.83341ZM0.166626 5.16675C0.166626 2.40532 2.4052 0.166748 5.16663 0.166748C7.92804 0.166748 10.1666 2.40532 10.1666 5.16675C10.1666 6.24658 9.82429 7.2465 9.24221 8.06383L12.4225 11.2442C12.748 11.5696 12.748 12.0972 12.4225 12.4227C12.0971 12.7481 11.5695 12.7481 11.244 12.4227L8.06371 9.24233C7.24638 9.82441 6.24646 10.1667 5.16663 10.1667C2.4052 10.1667 0.166626 7.92816 0.166626 5.16675Z" />
+</svg>
+Current Tab</a>
+    <a href="#content-2" class="tabs__link_3"><svg  class="tabs-icon_3"width="20" height="20" viewBox="0 0 20 20"  xmlns="http://www.w3.org/2000/svg">
+<path d="M12.5 10.5085H13V10.0085V8.8418H13.6667V10.8418C13.6667 11.0265 13.5181 11.1751 13.3334 11.1751H6.66671C6.48202 11.1751 6.33337 11.0265 6.33337 10.8418V8.8418H7.00004V10.0085V10.5085H7.50004H12.5Z" />
+<path d="M2.55285 5.23908L2.54173 5.23114L4.49123 2.63902L4.49172 2.63835C4.70841 2.34925 5.05813 2.17432 5.42329 2.17432H14.59C14.9562 2.17432 15.3068 2.35057 15.5249 2.64317L15.5253 2.64366L17.4717 5.24783L17.4621 5.25522L17.7552 5.64989C17.8152 5.73066 17.8333 5.79179 17.8333 5.84182V15.0085C17.8333 15.6515 17.3097 16.1751 16.6666 16.1751H3.33329C2.69027 16.1751 2.16663 15.6515 2.16663 15.0085V5.84182C2.16663 5.79151 2.18517 5.72931 2.24579 5.64848L2.55285 5.23908ZM5.42329 2.84182H5.17369L5.02368 3.04131L3.77034 4.70797L3.16836 5.50848H4.16996H15.8358H16.8338L16.2363 4.70912L14.9904 3.04246L14.8405 2.84182H14.59H5.42329ZM2.83329 15.0085V15.5085H3.33329H16.6683H17.1684L17.1683 15.0084L17.1666 6.67505L17.1665 6.17515H16.6666H3.33329H2.83329V6.67515V15.0085Z" />
+</svg>
+Second Tab</a>
+    <a href="#content-3" class="tabs__link_3 tabs-link_3-especially">
+      <svg aria-hidden="true" focusable="false" viewBox="0 0 20 20" fill="none" width="20" height="20" >
+        <path d="M3.33331 10V15.8333H16.6666V10"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 2.91728L10 11.2506"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 11.2506L12.8125 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M10 11.2506L7.1875 8.43811"  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg> 
+Third Tab</a>
+  <div class="tabs-content">
+    <div id="content-1"class="tabs-pane"></div>
+    <div id="content-2"class="tabs-pane"> </div>
+    <div id="content-3"class="tabs-pane"></div>
+  </div>
+</div>
+</div>
+</div>
+<div class="pagination__block">
+<div class="pagination__box">
+  <ul class="pagination">
+    <li><a href="#0"><svg class="icon_arrow" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 5.00004C0 5.26524 0.10536 5.51965 0.292892 5.70715L4.29294 9.70718C4.68344 10.0977 5.31664 10.0977 5.70715 9.70718C6.09765 9.31668 6.09765 8.68347 5.70715 8.29297L2.41422 5.00004L5.70715 1.70712C6.09765 1.31659 6.09765 0.683426 5.70715 0.292892C5.31664 -0.0976308 4.68344 -0.0976308 4.29294 0.292892L0.292892 4.29294C0.10536 4.48044 0 4.73484 0 5.00004Z" />
+  </svg>
+  </a></li>
+    <li><a class="active" href="#0">1</a></li>
+    <li><a href="#0">2</a></li>
+    <li><a href="#0">3</a></li>
+    <li><a href="#0">4</a></li>
+    <li><a  href="#0"><svg  class="icon_arrow" width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd" d="M6 5C6 4.7348 5.89464 4.4804 5.70711 4.2929L1.7071 0.2929C1.3166 -0.0976 0.6834 -0.0976 0.2929 0.2929C-0.0976 0.6834 -0.0976 1.3166 0.2929 1.7071L3.5858 5L0.2929 8.29289C-0.0976 8.68342 -0.0976 9.31658 0.2929 9.70711C0.6834 10.0976 1.3166 10.0976 1.7071 9.70711L5.70711 5.7071C5.89464 5.5196 6 5.2652 6 5Z" />
+  </svg>
+  </a></li>
+  </ul>
+</div>
+  <div class="paginations_2">
+    <ul class="pagination_2">
+      <li class="pagination__button  ">
+        <a class="pagination__button__link  " href="#">
+          <svg   class="pagination__button__icon "aria-hidden="true"
+                   focusable="false" viewBox="0 0 8 14" >
+          <path  d="M0 7.0001C0 7.3537 0.140481 7.6929 0.390523 7.9429L5.72392 13.2763C6.24459 13.797 7.08886 13.797 7.60953 13.2763C8.1302 12.7556 8.1302 11.9113 7.60953 11.3907L3.21896 7.0001L7.60953 2.60954C8.1302 2.08883 8.1302 1.24461 7.60953 0.723897C7.08886 0.2032 6.24459 0.2032 5.72392 0.723897L0.390523 6.05729C0.140481 6.30729 0 6.64649 0 7.0001Z" />
+          </svg>
+            </a>
+          </li>
+          <li class="pagination__button ">
+            <a class="pagination__button__link " href="#">
+              <svg  class="pagination__button__icon "aria-hidden="true"
+              focusable="false"  viewBox="0 0 8 14" >
+                <path  d="M8 6.99996C8 6.64636 7.85952 6.30716 7.60948 6.05716L2.27613 0.723826C1.75547 0.203159 0.9112 0.203159 0.390533 0.723826C-0.130133 1.24449 -0.130133 2.08876 0.390533 2.60943L4.78107 6.99996L0.390533 11.3905C-0.130133 11.9112 -0.130133 12.7554 0.390533 13.2761C0.9112 13.7968 1.75547 13.7968 2.27613 13.2761L7.60948 7.94276C7.85952 7.69276 8 7.35356 8 6.99996Z" />
+                </svg>
+                </a>
+              </li>
+    </ul>
+  </div>
+  <div class="paginations_2">
+    <ul class="pagination_2">
+      <li class="pagination__button  ">
+        <a class="pagination__button__link pagination__button__link_2   " href="#">
+          <svg   class="pagination__button__icon "aria-hidden="true"
+                   focusable="false" viewBox="0 0 8 14" >
+          <path  d="M0 7.0001C0 7.3537 0.140481 7.6929 0.390523 7.9429L5.72392 13.2763C6.24459 13.797 7.08886 13.797 7.60953 13.2763C8.1302 12.7556 8.1302 11.9113 7.60953 11.3907L3.21896 7.0001L7.60953 2.60954C8.1302 2.08883 8.1302 1.24461 7.60953 0.723897C7.08886 0.2032 6.24459 0.2032 5.72392 0.723897L0.390523 6.05729C0.140481 6.30729 0 6.64649 0 7.0001Z" />
+          </svg>
+            </a>
+          </li>
+          <span class="pagitation_text">1</span>
+          <li class="pagination__button ">
+            <a class="pagination__button__link pagination__button__link_2  " href="#">
+              <svg  class="pagination__button__icon "aria-hidden="true"
+              focusable="false"  viewBox="0 0 8 14" >
+                <path  d="M8 6.99996C8 6.64636 7.85952 6.30716 7.60948 6.05716L2.27613 0.723826C1.75547 0.203159 0.9112 0.203159 0.390533 0.723826C-0.130133 1.24449 -0.130133 2.08876 0.390533 2.60943L4.78107 6.99996L0.390533 11.3905C-0.130133 11.9112 -0.130133 12.7554 0.390533 13.2761C0.9112 13.7968 1.75547 13.7968 2.27613 13.2761L7.60948 7.94276C7.85952 7.69276 8 7.35356 8 6.99996Z" />
+                </svg>
+                </a>
+              </li>
+    </ul>
+  </div>
+  <!--Breadcrumbs-->
+  <div class="elements">
+    <ul class="element__list ">
+        <li class="element__item"><a class="element__link"href="#">Step 1</a></li>
+        <li class="element__item"><a class="element__link"href="#">Step 2</a></li>
+        <li class="element__item"><a class="element__link"href="#">Step 3</a></li>
+    </ul>
+</div>
+<div class="paginations_2 paginations_3">
+  <ul class="pagination_2">
+    <li class="pagination__button  ">
+      <a class="pagination__button__link pagination__button__link_3   " href="#">
+        <svg   class="pagination__button__icon pagination__button__icon_3 "aria-hidden="true"
+                 focusable="false" viewBox="0 0 8 14" >
+        <path  d="M0 7.0001C0 7.3537 0.140481 7.6929 0.390523 7.9429L5.72392 13.2763C6.24459 13.797 7.08886 13.797 7.60953 13.2763C8.1302 12.7556 8.1302 11.9113 7.60953 11.3907L3.21896 7.0001L7.60953 2.60954C8.1302 2.08883 8.1302 1.24461 7.60953 0.723897C7.08886 0.2032 6.24459 0.2032 5.72392 0.723897L0.390523 6.05729C0.140481 6.30729 0 6.64649 0 7.0001Z" />
+        </svg>  <span class="pagitation_text pagitation_text_2">Prev</span>
+          </a>
+        </li>
+        <div class="pagination__text_icon">
+         
+          <a class="pagination__button__link pagination__button__link_5 " href="#">
+            <span class="pagination__choice">1</span>
+            <svg  class="pagination__button__icon pagination__button__icon_5 "aria-hidden="true"
+            focusable="false"  viewBox="0 0 11 6" >
+              <path d="M6.001 5.2929L10.4403 0.8536C10.7553 0.5386 10.5322 0 10.0868 0H0.501008C0.0555479 0 -0.167532 0.5386 0.147448 0.8536L4.5868 5.2929C4.9773 5.6834 5.6105 5.6834 6.001 5.2929Z" />
+              </svg>
+              
+         </a>
+        </div>
+        <span class="pagitation__choice_2">of 10</span>
+        <li class="pagination__button ">
+          <a class="pagination__button__link pagination__button__link_4 " href="#"><span class="pagitation_text  pagitation_text_2">Next</span>
+                 <svg  class="pagination__button__icon pagination__button__icon_4 "aria-hidden="true"
+            focusable="false"  viewBox="0 0 8 14" >
+              <path  d="M8 6.99996C8 6.64636 7.85952 6.30716 7.60948 6.05716L2.27613 0.723826C1.75547 0.203159 0.9112 0.203159 0.390533 0.723826C-0.130133 1.24449 -0.130133 2.08876 0.390533 2.60943L4.78107 6.99996L0.390533 11.3905C-0.130133 11.9112 -0.130133 12.7554 0.390533 13.2761C0.9112 13.7968 1.75547 13.7968 2.27613 13.2761L7.60948 7.94276C7.85952 7.69276 8 7.35356 8 6.99996Z" />
+              </svg>
+              </a>
+            </li>
+  </ul>
+</div>
+</div>
+  <!--Wizzard-->
+  <div class="multisteps-form">
+    <div class="row">
+      <div class="col-12 col-lg-8 ml-auto mr-auto mb-2">
+        <div class="multisteps-form__progress">
+          <button class="multisteps-form__progress-btn" type="button" title="User Info"><div class="multisteps-text ">Step 1 </div></button>
+          <button class="multisteps-form__progress-btn" type="button" title="Address"><div class="multisteps-text">Step 2 </div></button>
+          <button class="multisteps-form__progress-btn" type="button" title="Order Info"><div class="multisteps-text">Step 3 </div></button>
+        </div>
+      </div>
+    </div>
+<!--WIZZARD-2-->
+<div class="multisteps">
+  <div class="column">
+      <div class="progress_point">
+        <button class="progress_point_btn js-active-element" type="button" title="User Info">        
+</button>
+        <button class="progress_point_btn" type="button" title="Address"></button>
+        <button class="progress_point_btn" type="button" title="Order Info"></button>
+         <button class="progress_point_btn" type="button" title="Comments"></button>
+      </div>
+  </div>
+  </div>
+  <div class="multisteps">
+    <div class="column-row">
+        <div class="progress_point">
+          <button class="progress_point_btn  progress_point_btn-first js-active-element" type="button" title="User Info">        
+  </button>
+          <button class="progress_point_btn" type="button" title="Address"></button>
+          <button class="progress_point_btn" type="button" title="Order Info"></button>
+           <button class="progress_point_btn" type="button" title="Comments"></button>
+        </div>
+    </div>
+    </div>
+    <!--TABLE BLOCK-->
+   <div class="table_block">
+     <div class="table__block_1">
+    <h2 class="button__title table__name_2">Tables</h2>
+<table class="myTable">
+  <tr class="table__header">
+    <th class="table__name">Name</th>
+    <th class="table__name">Country</th>
+     <th></th>
+  </tr>
+  <tr class="table__list">
+    <td class="table__item">Eduardo Pena</td>
+    <td class="table__item table__item-time">3 mins ago</td>
+    <td class="table__item">
+      <svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+      </tr>
+  <tr class="table__list">
+    <td class="table__item">Evan Robertson</td>
+    <td class="table__item table__item-time">Yesterday</td>
+    <td class="table__item "><svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+  </tr>
+  <tr class="table__list">
+    <td class="table__item">Kathryn Lane</td>
+    <td class="table__item table__item-time">Dec 31, 2019</td>
+    <td class="table__item "><svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+  </tr>
+</table>
+</div>
+
+<div class="table__block_2">
+  <div class="table__header_2">
+  <h2 class="button__title table__desc">Table Name</h2>
+  <div class="form__column__5">
+    <form class="form__search_left ">
+      <input type="search" class="input__search input__search__table search-right " placeholder="Search">
+    </form>   
+  </div>
+</div>
+<table class="myTable myTable_2">
+  <tr class="table__header">
+    <th class="table__name table__name_style "><input class=" table__checkbox table__checkbox__name" type="checkbox" id="checkbox0" /><label for="checkbox0"></label>Name</th>
+    <th class="table__name">Location</th>
+     <th class="table__name">Last Updated</th>
+     <th></th>
+  </tr>
+
+  <tr class="table__list">
+    <td class="table__item table__item-checkbox">
+      <input class=" table__checkbox" type="checkbox" id="checkbox1" /><label for="checkbox1">Devon Flores</label>
+      </td>
+      <td class="table__item">Tucson, United States</td>
+    <td class="table__item table__item-time">3 mins ago</td>
+    <td class="table__item "><svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+      </tr>
+
+  <tr class="table__list">
+    <td class="table__item table__item-checkbox">
+      <input class=" table__checkbox" type="checkbox" id="checkbox2" /><label for="checkbox2">Nathan Webb</label></td>
+      <td class="table__item ">Orange, United States</td>
+    <td class="table__item table__item-time">Yesterday</td>
+    <td class="table__item "><svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+  </tr>
+  <tr class="table__list">
+    <td class="table__item table__item-checkbox">  <input class=" table__checkbox" type="checkbox" id="checkbox3" /><label for="checkbox3">Beth Black</label></td>
+      <td class="table__item">Westminster, United States</td>
+    <td class="table__item table__item-time">Dec 31, 2019</td>
+    <td class="table__item "><svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+  </tr>
+  <tr class="table__list">
+    <td class="table__item table__item-checkbox"><input class=" table__checkbox" type="checkbox" id="checkbox4" /><label for="checkbox4">Bernard Flores</td>
+      <td class="table__item">Stamford United States</td>
+    <td class="table__item table__item-time">Dec 17, 2019</td>
+    <td class="table__item "><svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+  </tr>
+
+  <tr class="table__list">
+    <td class="table__item table__item-checkbox"><input class=" table__checkbox" type="checkbox" id="checkbox5" /><label for="checkbox5">Theresa Alexander</td>
+      <td class="table__item">Santa Ana United States</td>
+    <td class="table__item table__item-time">Nov 20, 2019</td>
+    <td class="table__item "><svg width="16" height="4" viewBox="0 0 16 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M2 4C3.10457 4 4 3.10457 4 2C4 0.89543 3.10457 0 2 0C0.89543 0 0 0.89543 0 2C0 3.10457 0.89543 4 2 4ZM8 4C9.10457 4 10 3.10457 10 2C10 0.89543 9.10457 0 8 0C6.89543 0 6 0.89543 6 2C6 3.10457 6.89543 4 8 4ZM16 2C16 3.10457 15.1046 4 14 4C12.8954 4 12 3.10457 12 2C12 0.89543 12.8954 0 14 0C15.1046 0 16 0.89543 16 2Z" fill="#E0E0E0"/></td>
+  </tr>
+</table>
+</div>
+   </div>
+   <div class="progress__block">
+     <div class="progress progress__add">
+       <img src="img/progress_add.svg" alt="" class="progress__image__add">
+       <h4 class="progress__title">Add Files</h4>
+       <p class="progress__text">Drag & Drop to upload or</p>
+     </div>
+     <div class="progress progress__wrong">
+      <img src="img/progress_add_wrong.svg" alt="" class="progress__image__add">
+      <h4 class="progress__title progress__title_wrong">Something went wrong.</h4>
+      <p class="progress__text">Please try again</p>
+     </div>
+
+     <div class="progress progress__loading">
+       <h4 class="progress__title progress__title_card-3">69% uploaded</h4>
+       <progress value="69" max="100" class="progress_line"></progress>
+       <p class="progress__text">Please wait...</p>
+       <button class="progress__button">Cancel</button>
+     </div>
+
+     <div class="progress progress__loading-bool">
+      <div class="progress__bool >
+        <svg>
+          <circle cx="110" cy="110" r="60"></circle>
+        </svg>
+        <div class="inner-circle"">
+         <span class=" num"></span>
+        </div>
+      </div>
+      <p class="progress__text progress__text-bool">Uploading ...</p>
+      <button class="progress__button progress__button-bool">Cancel</button>
+     </div>
+
+
+     <div class="progress progress__file">
+       <div class="progress__file_header">
+       <h4 class="progress__file_title">Recent Uploads</h4>
+       <button class="progress__file__button">
+         <span class="progress__file__button_text">Upload</span>
+         <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 17.5C14.1421 17.5 17.5 14.1421 17.5 10C17.5 5.85786 14.1421 2.5 10 2.5C5.85786 2.5 2.5 5.85786 2.5 10C2.5 14.1421 5.85786 17.5 10 17.5Z" stroke="#2C2C2C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 13.75V6.25" stroke="#2C2C2C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 6.25L7.1875 9.0625" stroke="#2C2C2C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M10 6.25L12.8125 9.0625" stroke="#2C2C2C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+       </button>
+      </div>
+      <div class="progress__file__elements">
+        <div class="progress__file__element">
+          <img src="img/img_file.png" alt="file" class="progress__file__element_image">
+          <div class="progress__file__element_descr">
+            <h5 class="progress__file__element_descr_title">File Name.jpg</h5>
+            <p class="progress__file__element_descr_text">23 mins ago</p>
+          </div>
+          <div class="progress__file__element_button">
+            <img src="img/progress_file_close.svg" alt="close" class="progress__file__element_button_image">
+          </div>
+        </div>
+      </div>
+      <progress value="40" max="100" class="progress_line progress_file_line"></progress>
+
+
+      <div class="progress__file__elements progress__file__elements_2">
+        <div class="progress__file__element">
+          <img src="img/img_file.png" alt="file" class="progress__file__element_image">
+          <div class="progress__file__element_descr">
+            <h5 class="progress__file__element_descr_title">File Name.jpg</h5>
+            <p class="progress__file__element_descr_text">23 mins ago</p>
+          </div>
+          <div class="progress__file__element_button">
+            <img src="img/progress_file_eye.svg" alt="close" class="progress__file__element_button_image">
+          </div>
+        </div>
+      </div>
+      <progress value="100" max="100" class="progress_line progress_file_line progress_file_line_green"></progress>
+
+      <div class="progress__file__elements progress__file__elements_2">
+        <div class="progress__file__element">
+          <img src="img/img_file.png" alt="file" class="progress__file__element_image">
+          <div class="progress__file__element_descr progress__file__element_descr_restore">
+            <h5 class="progress__file__element_descr_title">File Name.jpg</h5>
+            <p class="progress__file__element_descr_text">23 mins ago</p>
+          </div>
+          <div class="progress__file__element_button progress__file__element_button_restore">
+            <span class="progress__file__element_restore">Failed</span>
+            <img src="img/progress_file_restore.svg" alt="close" class="progress__file__element_button_image">
+          </div>
+        </div>
+      </div>
+      <progress value="100" max="100" class="progress_line progress_file_line progress_file_line_red"></progress>
+      
+      <div class="progress__file__elements progress__file__elements_2">
+        <div class="progress__file__element progress__file__element_4">
+          <img src="img/img_file.png" alt="file" class="progress__file__element_image">
+          <div class="progress__file__element_descr progress__file__element_descr_restore progress__file__element_descr_restore_4">
+            <h5 class="progress__file__element_descr_title">File Name.jpg</h5>
+            <p class="progress__file__element_descr_text">23 mins ago</p>
+          </div>
+          <div class="progress__file__element_button progress__file__element_button_restore">
+            <span class="progress__file__element_restore progress__file__element_restore_2">Canceled</span>
+            <img src="img/progress_file_restore_2.svg" alt="close" class="progress__file__element_button_image">
+          </div>
+        </div>
+      </div>
+      <progress value="30" max="100" class="progress_line progress_file_line progress_file_line_yellow"></progress>
+      
+     </div>
+
+     
+
+
+     <div class="progress progress__done">
+      <img src="img/progress_done.png" alt="" class="progress__image__add progress__image__done"">
+      <p class="progress__text-done progress__button-bool">Upload Complete!</p>
+      <button class="progress__button progress__button-circe progress__button-done" >Upload New</button>
+    </div>
+     </div>
+   </div>
+
+  </div><!--part_4-->
+
+  </div> <!--container-->
+
+
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script type="text/javascript" src="./js/js_slider_2.js"></script>
+  <script type="text/javascript" src="./js/js_slider_3.js"></script>
+  <script type="text/javascript" src="./js/js_slider_4.js"></script>
+  <script type="text/javascript" src="./js/js_slider_5.js"></script>
+  <script type="text/javascript" src="./js/js_wizzard_1.js"></script>
+  <script  type="text/javascript" src="./js/js_wizzard_2.js"></script>
+  <script  type="text/javascript" src="./js/progress_bar.js"></script>
+ 
+
+
+  
+ 
+
+
+</body>
+
+</html>
